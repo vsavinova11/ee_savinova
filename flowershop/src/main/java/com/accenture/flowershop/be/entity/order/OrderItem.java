@@ -4,14 +4,11 @@ import com.accenture.flowershop.be.entity.PersistentEntity;
 import com.accenture.flowershop.be.entity.flower.Flower;
 
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.OneToMany;
-import javax.persistence.OneToOne;
+import javax.persistence.*;
 
 @Entity
 public class OrderItem extends PersistentEntity {
-    @OneToOne
+    @ManyToOne
     private Flower flower;
     private int count;
     private double price;
@@ -32,12 +29,7 @@ public class OrderItem extends PersistentEntity {
     }
 
     public void setCount(int count) {
-        if (count<0 || count<flower.getCount()){
-            this.count = 0;
-        }
-        else {
-            this.count = count;
-        }
+        this.count = count;
     }
 
     public void setFlower(Flower flower) {

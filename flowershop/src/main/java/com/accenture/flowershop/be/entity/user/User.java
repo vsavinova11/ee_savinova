@@ -3,8 +3,10 @@ package com.accenture.flowershop.be.entity.user;
 import com.accenture.flowershop.be.entity.PersistentEntity;
 
 import javax.persistence.Entity;
+import javax.persistence.Inheritance;
 
 @Entity
+
 public abstract class User extends PersistentEntity {
     private String login;
     private String password;

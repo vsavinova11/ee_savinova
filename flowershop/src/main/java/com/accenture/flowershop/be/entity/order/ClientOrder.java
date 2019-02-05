@@ -8,8 +8,8 @@ import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import java.util.List;
 
-@Entity(name = "flowerOrder")
-public class Order extends PersistentEntity {
+@Entity
+public class ClientOrder extends PersistentEntity {
     @OneToMany
     List<OrderItem> orderItems;
     @ManyToOne

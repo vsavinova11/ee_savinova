@@ -1,13 +1,14 @@
 package com.accenture.flowershop.be.entity.user;
 
 import javax.persistence.Entity;
+import java.math.BigDecimal;
 
 @Entity
 public class Client extends User {
     private String fullName;
     private String address;
     private String phone;
-    private double balance;
+    private BigDecimal balance;
     private int discount;
 
     Client() {
@@ -26,7 +27,7 @@ public class Client extends User {
         return phone;
     }
 
-    public double getBalance() {
+    public BigDecimal getBalance() {
         return balance;
     }
 
@@ -38,7 +39,7 @@ public class Client extends User {
         this.address = address;
     }
 
-    public void setBalance(double balance) {
+    public void setBalance(BigDecimal balance) {
         this.balance = balance;
     }
 

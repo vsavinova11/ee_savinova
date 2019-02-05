@@ -1,5 +1,6 @@
 package com.accenture.flowershop.be.config;
 
+import com.accenture.flowershop.be.access.UserDetailsServiceImpl;
 import org.apache.commons.dbcp2.BasicDataSource;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -8,6 +9,7 @@ import org.springframework.instrument.classloading.InstrumentationLoadTimeWeaver
 import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
 import org.springframework.orm.jpa.vendor.Database;
 import org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter;
+import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 import javax.sql.DataSource;
@@ -16,8 +18,7 @@ import javax.sql.DataSource;
 @Configuration
 @EnableJpaRepositories(basePackages = {"com.accenture.flowershop.be.repositories"})
 @EnableTransactionManagement
-
-public class FlowerShopJpaConfig {
+public class JpaConfig {
 
     @Bean
     public LocalContainerEntityManagerFactoryBean entityManagerFactory() {
@@ -43,6 +44,7 @@ public class FlowerShopJpaConfig {
         ds.setPassword("");
         return ds;
     }
+
 }
 
 
