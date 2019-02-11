@@ -1,5 +1,8 @@
 package com.accenture.flowershop.be.entity.user;
 
+import com.sun.istack.NotNull;
+
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import java.math.BigDecimal;
 

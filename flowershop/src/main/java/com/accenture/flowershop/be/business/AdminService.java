@@ -7,5 +7,4 @@ import java.util.List;
 public interface AdminService {
     Admin addAdmin(Admin admin);
     Admin findAdmin(String login);
-    List<Admin> listAdmin();
 }

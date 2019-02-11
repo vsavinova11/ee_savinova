@@ -42,6 +42,12 @@ public class FlowerServiceImpl implements FlowerService {
         return flowerRepository.findAll(spec);
     }
 
+    @Override
+    public void writeOffFlower(Flower flower, int count) {
+        flower.setCount(flower.getCount()-count);
+        flowerRepository.saveAndFlush(flower);
+    }
+
     private Specification<Flower> trueSpec()
     {
         return (Specification<Flower>) (root, query, criteriaBuilder) -> criteriaBuilder.and();

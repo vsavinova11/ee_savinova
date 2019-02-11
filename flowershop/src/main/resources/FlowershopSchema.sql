@@ -1,32 +1,27 @@
-
-CREATE sequence USER_SEQ;
-CREATE sequence CLIENTORDER_SEQ;
-CREATE sequence FLOWER_SEQ;
-CREATE sequence ORDERITEM_SEQ;
-
+CREATE sequence HIBERNATE_SEQUENCE;
 --  DDL for Table USER
 --------------------------------------------------------
 
   CREATE TABLE "USER"
-   ("ID" BIGINT NOT NULL UNIQUE PRIMARY KEY,
-	"DTYPE" VARCHAR NOT NULL,
-	"LOGIN" VARCHAR,
-	"PASSWORD" VARCHAR,
-	"FULLNAME" VARCHAR,
-	"ADDRESS" VARCHAR,
-	"PHONE" VARCHAR,
+   ("ID" BIGINT PRIMARY KEY,
+	"DTYPE" VARCHAR(32) NOT NULL,
+	"LOGIN" VARCHAR(64) NOT NULL,
+	"PASSWORD" VARCHAR(64) NOT NULL,
+	"FULLNAME" VARCHAR(128),
+	"ADDRESS" VARCHAR(128),
+	"PHONE" VARCHAR(20),
 	"BALANCE" DOUBLE,
-	"DISCOUNT" INT
+	"DISCOUNT" INTEGER
    );
 --------------------------------------------------------
 --  DDL for Table CLIENTORDER
 --------------------------------------------------------
 
   CREATE TABLE "CLIENTORDER"
-   ("ID" BIGINT NOT NULL UNIQUE PRIMARY KEY,
+   ("ID" BIGINT PRIMARY KEY,
 	"CLOSINGDATE" VARCHAR,
-	"CREATIONDATE" VARCHAR,
-	"STATUS" VARCHAR,
+	"CREATIONDATE" VARCHAR NOT NULL,
+	"STATUS" VARCHAR(20),
 	"TOTAL" DOUBLE,
     "CLIENT_ID" BIGINT
    );
@@ -35,9 +30,9 @@ CREATE sequence ORDERITEM_SEQ;
 --------------------------------------------------------
 
   CREATE TABLE "FLOWER"
-   ("ID" BIGINT NOT NULL UNIQUE PRIMARY KEY,
-    "NAME" VARCHAR,
-	  "COUNT" INT,
+   ("ID" BIGINT PRIMARY KEY,
+    "NAME" VARCHAR(45) NOT NULL,
+	  "COUNT" INTEGER,
 	  "PRICE" DOUBLE
    );
 --------------------------------------------------------
@@ -45,9 +40,9 @@ CREATE sequence ORDERITEM_SEQ;
 --------------------------------------------------------
 
   CREATE TABLE "ORDERITEM"
-   ("ID" BIGINT NOT NULL UNIQUE PRIMARY KEY,
+   ("ID" BIGINT PRIMARY KEY,
     "FLOWER_ID" BIGINT,
-	  "COUNT" INT,
+	  "COUNT" INTEGER,
 	  "PRICE" DOUBLE
    );
    
@@ -62,8 +57,9 @@ CREATE sequence ORDERITEM_SEQ;
 --------------------------------------------------------
 --  Insert data
 --------------------------------------------------------
-INSERT INTO FLOWER (ID, NAME,COUNT,PRICE) values (FLOWER_SEQ.NEXTVAL, 'Azalea', 100, 75);
-INSERT INTO FLOWER (ID, NAME,COUNT,PRICE) values (FLOWER_SEQ.NEXTVAL, 'Aster', 150, 75);
-
+INSERT INTO FLOWER (ID, NAME,COUNT,PRICE) values (HIBERNATE_SEQUENCE.NEXTVAL, 'Azalea', 1000, 50);
+INSERT INTO FLOWER (ID, NAME,COUNT,PRICE) values (HIBERNATE_SEQUENCE.NEXTVAL, 'Aster', 1500, 75);
+INSERT INTO FLOWER (ID, NAME,COUNT,PRICE) values (HIBERNATE_SEQUENCE.NEXTVAL, 'Iris', 850, 40);
+INSERT INTO FLOWER (ID, NAME,COUNT,PRICE) values (HIBERNATE_SEQUENCE.NEXTVAL, 'Lily', 3000, 150);
 
 COMMIT;

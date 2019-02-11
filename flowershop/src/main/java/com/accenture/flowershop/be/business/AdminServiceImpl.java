@@ -21,10 +21,4 @@ public class AdminServiceImpl implements AdminService {
         return adminRepository.findAdminByLogin(login);
     }
 
-    @Override
-    public List<Admin> listAdmin() {
-        return adminRepository.findAll();
-    }
-
-
 }

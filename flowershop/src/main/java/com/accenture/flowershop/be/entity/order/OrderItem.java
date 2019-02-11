@@ -2,6 +2,7 @@ package com.accenture.flowershop.be.entity.order;
 
 import com.accenture.flowershop.be.entity.PersistentEntity;
 import com.accenture.flowershop.be.entity.flower.Flower;
+import com.sun.istack.NotNull;
 
 
 import javax.persistence.*;
@@ -10,6 +11,7 @@ import javax.persistence.*;
 public class OrderItem extends PersistentEntity {
     @ManyToOne
     private Flower flower;
+    @Column(nullable = false)
     private int count;
     private double price;
 

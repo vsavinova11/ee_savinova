@@ -23,6 +23,8 @@ public class ClientOrderServiceImpl implements ClientOrderService {
     private ClientOrderRepository clientOrderRepository;
     @Autowired
     private OrderItemService orderItemService;
+    @Autowired
+    private FlowerService flowerService;
 
     @Override
     public ClientOrder addClientOrder(Client client, List<OrderItem> cart, double total) {
@@ -59,6 +61,11 @@ public class ClientOrderServiceImpl implements ClientOrderService {
         }
         client.setBalance(client.getBalance().subtract(clientOrderTotal));
         clientOrder.setStatus(OrderStatus.Paid);
+
+        for (OrderItem item: clientOrder.getOrderItems()) {
+            flowerService.writeOffFlower(item.getFlower(), item.getCount());
+        }
+
     }
 
     @Override

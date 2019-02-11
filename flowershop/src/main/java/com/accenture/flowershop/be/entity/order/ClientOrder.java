@@ -2,6 +2,7 @@ package com.accenture.flowershop.be.entity.order;
 
 import com.accenture.flowershop.be.entity.PersistentEntity;
 import com.accenture.flowershop.be.entity.user.Client;
+import com.sun.istack.NotNull;
 
 import javax.persistence.*;
 import java.math.BigDecimal;
@@ -14,6 +15,7 @@ public class ClientOrder extends PersistentEntity {
     private List<OrderItem> orderItems;
     @ManyToOne
     private Client client;
+    @Column(nullable = false)
     private String creationDate;
     private String closingDate;
     @Enumerated(EnumType.STRING)
