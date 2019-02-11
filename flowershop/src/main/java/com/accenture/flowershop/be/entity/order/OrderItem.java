@@ -12,9 +12,8 @@ public class OrderItem extends PersistentEntity {
     private Flower flower;
     private int count;
     private double price;
-    OrderItem(){
 
-    }
+    public OrderItem(){ }
 
     public int getCount() {
         return count;

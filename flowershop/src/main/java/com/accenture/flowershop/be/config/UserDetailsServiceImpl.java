@@ -1,10 +1,12 @@
-package com.accenture.flowershop.be.access;
+package com.accenture.flowershop.be.config;
 
 import com.accenture.flowershop.be.entity.user.Admin;
 import com.accenture.flowershop.be.entity.user.Client;
 import com.accenture.flowershop.be.entity.user.User;
 import com.accenture.flowershop.be.repositories.user.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
+import org.springframework.security.authentication.dao.DaoAuthenticationProvider;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
@@ -17,6 +19,7 @@ import java.util.Collections;
 public class UserDetailsServiceImpl implements UserDetailsService{
     @Autowired
     private UserRepository userRepository;
+
     @Override
     public UserDetails loadUserByUsername(String s) throws UsernameNotFoundException {
         User user = userRepository.findByLogin(s);

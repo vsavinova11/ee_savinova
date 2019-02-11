@@ -4,6 +4,8 @@ import com.accenture.flowershop.be.entity.order.ClientOrder;
 import com.accenture.flowershop.be.entity.user.Client;
 import org.springframework.data.jpa.repository.JpaRepository;
 
+import java.util.List;
+
 public interface ClientOrderRepository extends JpaRepository<ClientOrder, Long> {
-    ClientOrder findByClient(Client client);
+    List<ClientOrder> findByClient(Client client);
 }

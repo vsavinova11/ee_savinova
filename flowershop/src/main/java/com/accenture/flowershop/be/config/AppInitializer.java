@@ -1,11 +1,9 @@
 package com.accenture.flowershop.be.config;
 
 import java.util.EnumSet;
-import javax.naming.Context;
 import javax.servlet.DispatcherType;
 import javax.servlet.FilterRegistration;
 
-import com.accenture.flowershop.be.access.ContextStartedListener;
 import org.springframework.web.WebApplicationInitializer;
 
 import org.springframework.web.context.ContextLoaderListener;
@@ -30,8 +28,8 @@ public class AppInitializer implements WebApplicationInitializer {
         dispatcher.addMapping("/");
 
         DelegatingFilterProxy delegatingFilterProxy = new DelegatingFilterProxy("springSecurityFilterChain");
-	delegatingFilterProxy.setTargetFilterLifecycle(true);
-        
+        delegatingFilterProxy.setTargetFilterLifecycle(true);
+
         FilterRegistration securityFilterReg = container.addFilter("springSecurityFilterChain", delegatingFilterProxy);
         securityFilterReg.addMappingForUrlPatterns(EnumSet.allOf(DispatcherType.class), true, "/*");
     }
@@ -39,9 +37,7 @@ public class AppInitializer implements WebApplicationInitializer {
     protected WebApplicationContext createServletApplicationContext() {
         AnnotationConfigWebApplicationContext webAppContext
                 = new AnnotationConfigWebApplicationContext();
-        webAppContext.register(JpaConfig.class);
-        webAppContext.register(SecurityConfig.class);
-        webAppContext.register(WebAppConfig.class);
+        webAppContext.register(BootConfig.class);
         return webAppContext;
     }
 }

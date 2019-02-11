@@ -1,6 +1,6 @@
 package com.accenture.flowershop.be.config;
 
-import com.accenture.flowershop.be.access.UserDetailsServiceImpl;
+import javax.persistence.EntityManagerFactory;
 import org.apache.commons.dbcp2.BasicDataSource;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -9,10 +9,11 @@ import org.springframework.instrument.classloading.InstrumentationLoadTimeWeaver
 import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
 import org.springframework.orm.jpa.vendor.Database;
 import org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter;
-import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 import javax.sql.DataSource;
+import org.springframework.orm.jpa.JpaTransactionManager;
+import org.springframework.transaction.PlatformTransactionManager;
 
 
 @Configuration
@@ -33,6 +34,12 @@ public class JpaConfig {
         factory.setPersistenceUnitName("flowershopUnit");
         factory.setLoadTimeWeaver(new InstrumentationLoadTimeWeaver());
         return factory;
+    }
+    
+    @Bean
+    public PlatformTransactionManager transactionManager() {
+        EntityManagerFactory factory = entityManagerFactory().getObject();
+        return new JpaTransactionManager(factory);
     }
 
     @Bean(destroyMethod = "close")

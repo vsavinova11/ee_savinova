@@ -5,7 +5,7 @@
   Time: 12:38
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html; charset=UTF-8" language="java" %>
+<%@ page isELIgnored="false" contentType="text/html; charset=UTF-8" language="java" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!DOCTYPE html>
 <html lang="en">
@@ -15,7 +15,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Spring Security</title>
+    <title>Авторизация</title>
     <!-- Bootstrap core CSS -->
     <link href="<c:url value="/pages/css/bootstrap.css" />" rel="stylesheet">
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -32,6 +32,11 @@
         <input type="password" class="form-control" name="j_password" placeholder="Password">
         <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
     </form>
+    <a class="btn btn-lg btn-secondary btn-block" href = "registration" type="button">Registration</a>
+
 </div>
+<footer class="bg-light p-3">
+    Error: ${error}
+</footer>
 </body>
 </html>

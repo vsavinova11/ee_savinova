@@ -11,7 +11,7 @@ public class Client extends User {
     private BigDecimal balance;
     private int discount;
 
-    Client() {
+    public Client() {
 
     }
 
