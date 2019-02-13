@@ -44,6 +44,10 @@ public class FlowerServiceImpl implements FlowerService {
 
     @Override
     public void writeOffFlower(Flower flower, int count) {
+        if(flower.getCount()-count<0)
+        {
+            throw new RuntimeException("Failed to write off: not enough flowers");
+        }
         flower.setCount(flower.getCount()-count);
         flowerRepository.saveAndFlush(flower);
     }

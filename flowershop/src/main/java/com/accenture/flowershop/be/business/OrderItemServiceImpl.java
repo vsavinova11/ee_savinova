@@ -2,6 +2,7 @@ package com.accenture.flowershop.be.business;
 
 import com.accenture.flowershop.be.entity.order.OrderItem;
 import com.accenture.flowershop.be.repositories.order.OrderItemRepository;
+import java.math.BigDecimal;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -17,7 +18,7 @@ public class OrderItemServiceImpl implements OrderItemService {
     @Override
     public void addOrderItems(List<OrderItem> orderItems) {
         for (OrderItem orderItem: orderItems) {
-            double price = orderItem.getFlower().getPrice()*orderItem.getCount();
+            BigDecimal price = orderItem.getFlower().getPrice().multiply(BigDecimal.valueOf(orderItem.getCount()));
             orderItem.setPrice(price);
             orderItemRepository.saveAndFlush(orderItem);
         }

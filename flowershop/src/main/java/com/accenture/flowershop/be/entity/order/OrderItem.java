@@ -3,6 +3,7 @@ package com.accenture.flowershop.be.entity.order;
 import com.accenture.flowershop.be.entity.PersistentEntity;
 import com.accenture.flowershop.be.entity.flower.Flower;
 import com.sun.istack.NotNull;
+import java.math.BigDecimal;
 
 
 import javax.persistence.*;
@@ -13,7 +14,7 @@ public class OrderItem extends PersistentEntity {
     private Flower flower;
     @Column(nullable = false)
     private int count;
-    private double price;
+    private BigDecimal price;
 
     public OrderItem(){ }
 
@@ -21,7 +22,7 @@ public class OrderItem extends PersistentEntity {
         return count;
     }
 
-    public double getPrice() {
+    public BigDecimal getPrice() {
         return price;
     }
 
@@ -37,7 +38,7 @@ public class OrderItem extends PersistentEntity {
         this.flower = flower;
     }
 
-    public void setPrice(double price) {
+    public void setPrice(BigDecimal price) {
         this.price = price;
     }
 }

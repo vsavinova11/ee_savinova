@@ -50,4 +50,14 @@ public class ClientServiceImpl implements ClientService {
     @Transactional
     public void removeClient(long id) {
     }
+
+    @Override
+    public void setDiscount(Long clientId, int discount) {
+        Client cl = clientRepository.findById(clientId).orElse(null);
+        if(cl == null)
+        {
+            throw new IllegalArgumentException("No client with id "+clientId+" found");
+        }
+        cl.setDiscount(discount);
+    }
 }

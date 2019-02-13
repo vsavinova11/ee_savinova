@@ -43,7 +43,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .disable()
                 .authorizeRequests()
                 .antMatchers("/pages/css/**").permitAll()
-                .antMatchers("/registration").permitAll()
+                .antMatchers("/registration/**").permitAll()
+                .antMatchers("/ws/**").permitAll()
                 .anyRequest().access("isAuthenticated()")
                 .and().
                 formLogin()

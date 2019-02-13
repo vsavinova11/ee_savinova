@@ -13,6 +13,7 @@ import org.springframework.web.servlet.DispatcherServlet;
 
 import javax.servlet.ServletContext;
 import javax.servlet.ServletRegistration;
+import org.apache.cxf.transport.servlet.CXFServlet;
 import org.springframework.web.filter.DelegatingFilterProxy;
 
 public class AppInitializer implements WebApplicationInitializer {
@@ -22,6 +23,10 @@ public class AppInitializer implements WebApplicationInitializer {
         WebApplicationContext applicationContext = createServletApplicationContext();
 
         container.addListener(new ContextLoaderListener(applicationContext));
+        
+        ServletRegistration.Dynamic cxf = container.addServlet("cxf", new CXFServlet());
+        cxf.addMapping("/ws/*");
+        
         ServletRegistration.Dynamic dispatcher = container.addServlet("dispatcher", DispatcherServlet.class);
         dispatcher.setInitParameter("contextConfigLocation", "");
         dispatcher.setLoadOnStartup(1);

@@ -16,7 +16,6 @@ import java.util.List;
 
 @Service
 @Transactional
-
 public class ClientOrderServiceImpl implements ClientOrderService {
 
     @Autowired
@@ -27,7 +26,7 @@ public class ClientOrderServiceImpl implements ClientOrderService {
     private FlowerService flowerService;
 
     @Override
-    public ClientOrder addClientOrder(Client client, List<OrderItem> cart, double total) {
+    public ClientOrder addClientOrder(Client client, List<OrderItem> cart, BigDecimal total) {
         ClientOrder clientOrder = new ClientOrder();
         clientOrder.setClient(client);
         clientOrder.setOrderItems(cart);
@@ -49,13 +48,13 @@ public class ClientOrderServiceImpl implements ClientOrderService {
     }
 
     @Override
-    public void orderPay(Long id) {
+    public  synchronized void orderPay(Long id) {
         ClientOrder clientOrder = findById(id);
         if (clientOrder == null){
             throw new RuntimeException("Failed to pay. Order not found.");
         }
         Client client = clientOrder.getClient();
-        BigDecimal clientOrderTotal = new BigDecimal(clientOrder.getTotal());
+        BigDecimal clientOrderTotal = clientOrder.getTotal();
         if (clientOrderTotal.compareTo(client.getBalance()) > 0){
             throw new RuntimeException("Failed to pay. Insufficient funds.");
         }

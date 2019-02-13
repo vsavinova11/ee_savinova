@@ -2,12 +2,13 @@ package com.accenture.flowershop.be.business;
 import com.accenture.flowershop.be.entity.order.ClientOrder;
 import com.accenture.flowershop.be.entity.order.OrderItem;
 import com.accenture.flowershop.be.entity.user.Client;
+import java.math.BigDecimal;
 import org.springframework.data.domain.Sort;
 
 import java.util.List;
 
 public interface ClientOrderService {
-    ClientOrder addClientOrder(Client client, List<OrderItem> cart, double total);
+    ClientOrder addClientOrder(Client client, List<OrderItem> cart, BigDecimal total);
     List<ClientOrder> findClientOrders(Client client);
     ClientOrder findById(Long id);
     void orderPay(Long id);

@@ -1,0 +1,1361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4948d343-1d79-4f41-bb62-fcc86cb87a6c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/WsClient/WsClient.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WsClient/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WsClient/src/main/java/com/accenture/flowershop/be/business/FlowerStockWebService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WsClient/src/main/java/com/accenture/flowershop/be/business/FlowerStockWebServiceImplService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WsClient/src/main/java/com/accenture/flowershop/be/business/IncreaseFlowerStockSize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WsClient/src/main/java/com/accenture/flowershop/be/business/IncreaseFlowerStockSizeResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WsClient/src/main/java/com/accenture/flowershop/be/business/ObjectFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WsClient/src/main/java/com/accenture/flowershop/be/business/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WsClient/src/main/java/com/accenture/flowershop/startup/Startup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WsClient/target/classes/com/accenture/flowershop/be/business/FlowerStockWebService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WsClient/target/classes/com/accenture/flowershop/be/business/FlowerStockWebServiceImplService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WsClient/target/classes/com/accenture/flowershop/be/business/IncreaseFlowerStockSize.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WsClient/target/classes/com/accenture/flowershop/be/business/IncreaseFlowerStockSizeResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WsClient/target/classes/com/accenture/flowershop/be/business/ObjectFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WsClient/target/classes/com/accenture/flowershop/be/business/package-info.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WsClient/target/classes/com/accenture/flowershop/startup/Startup$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WsClient/target/classes/com/accenture/flowershop/startup/Startup.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WsClient/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WsClient/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/artifacts/flowershop_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/artifacts/flowershop_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/dataSources/0497b29f-3adc-47ad-a2f4-8a5458c6e804.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/dataSources/a7517c6d-1127-4d3e-93b5-1b226edcdbc1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/libraries/Maven__com_h2database_h2_1_4_197.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/libraries/Maven__jstl_jstl_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/libraries/Maven__org_apache_commons_commons_dbcp2_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_9_0_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/libraries/Maven__org_apache_tomcat_tomcat_api_9_0_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/libraries/Maven__org_apache_tomcat_tomcat_catalina_9_0_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/libraries/Maven__org_apache_tomcat_tomcat_coyote_9_0_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/libraries/Maven__org_apache_tomcat_tomcat_el_api_9_0_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/libraries/Maven__org_apache_tomcat_tomcat_jaspic_api_9_0_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/libraries/Maven__org_apache_tomcat_tomcat_jni_9_0_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/libraries/Maven__org_apache_tomcat_tomcat_jsp_api_9_0_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_9_0_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/libraries/Maven__org_apache_tomcat_tomcat_servlet_api_9_0_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/libraries/Maven__org_apache_tomcat_tomcat_util_9_0_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/libraries/Maven__org_apache_tomcat_tomcat_util_scan_9_0_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/libraries/Maven__org_aspectj_aspectjrt_1_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_5_4_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/libraries/Maven__org_javassist_javassist_3_24_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/libraries/Maven__org_jboss_jandex_2_0_5_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_1_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/libraries/Maven__org_slf4j_slf4j_api_1_8_0_beta2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/libraries/Maven__org_springframework_security_spring_security_acl_5_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/libraries/Maven__org_springframework_security_spring_security_taglibs_5_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/libraries/Maven__org_springframework_spring_aop_5_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/libraries/Maven__org_springframework_spring_beans_5_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/libraries/Maven__org_springframework_spring_context_5_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/libraries/Maven__org_springframework_spring_core_5_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/libraries/Maven__org_springframework_spring_expression_5_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/libraries/Maven__org_springframework_spring_orm_5_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/libraries/Maven__org_springframework_spring_tx_5_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/libraries/Maven__org_springframework_spring_web_5_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/business/ClientMarshallingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/business/ClientMarshallingServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/business/FlowerStockWebService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/business/FlowerStockWebServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/business/JmsAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/business/MarshallerAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/config/JmsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/fe/dto/DiscountRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/fe/dto/RegistrationReply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/src/main/resources/configuration.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/src/main/webapp/WEB-INF/sun-jaxws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/classes/FlowershopSchema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/classes/com/accenture/flowershop/be/business/AdminService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/classes/com/accenture/flowershop/be/business/AdminServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/classes/com/accenture/flowershop/be/business/CartService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/classes/com/accenture/flowershop/be/business/CartServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/classes/com/accenture/flowershop/be/business/ClientMarshallingService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/classes/com/accenture/flowershop/be/business/ClientMarshallingServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/classes/com/accenture/flowershop/be/business/ClientOrderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/classes/com/accenture/flowershop/be/business/ClientOrderServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/classes/com/accenture/flowershop/be/business/ClientService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/classes/com/accenture/flowershop/be/business/ClientServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/classes/com/accenture/flowershop/be/business/FlowerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/classes/com/accenture/flowershop/be/business/FlowerServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/classes/com/accenture/flowershop/be/business/FlowerStockWebService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/classes/com/accenture/flowershop/be/business/FlowerStockWebServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/classes/com/accenture/flowershop/be/business/JmsAdvice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/classes/com/accenture/flowershop/be/business/MarshallerAdvice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/classes/com/accenture/flowershop/be/business/OrderItemService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/classes/com/accenture/flowershop/be/business/OrderItemServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/classes/com/accenture/flowershop/be/config/AppInitializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/classes/com/accenture/flowershop/be/config/BootConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/classes/com/accenture/flowershop/be/config/ContextStartedListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/classes/com/accenture/flowershop/be/config/JmsConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/classes/com/accenture/flowershop/be/config/JpaConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/classes/com/accenture/flowershop/be/config/SecurityConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/classes/com/accenture/flowershop/be/config/UrlAuthenticationSuccessHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/classes/com/accenture/flowershop/be/config/UserDetailsServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/classes/com/accenture/flowershop/be/config/WebAppConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/classes/com/accenture/flowershop/be/controller/DashboardController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/classes/com/accenture/flowershop/be/controller/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/classes/com/accenture/flowershop/be/controller/MainController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/classes/com/accenture/flowershop/be/controller/RegistrationController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/classes/com/accenture/flowershop/be/entity/PersistentEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/classes/com/accenture/flowershop/be/entity/flower/Flower.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/classes/com/accenture/flowershop/be/entity/order/ClientOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/classes/com/accenture/flowershop/be/entity/order/OrderItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/classes/com/accenture/flowershop/be/entity/order/OrderStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/classes/com/accenture/flowershop/be/entity/user/Admin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/classes/com/accenture/flowershop/be/entity/user/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/classes/com/accenture/flowershop/be/entity/user/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/classes/com/accenture/flowershop/be/repositories/flower/FlowerRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/classes/com/accenture/flowershop/be/repositories/order/ClientOrderRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/classes/com/accenture/flowershop/be/repositories/order/OrderItemRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/classes/com/accenture/flowershop/be/repositories/user/AdminRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/classes/com/accenture/flowershop/be/repositories/user/ClientRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/classes/com/accenture/flowershop/be/repositories/user/UserRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/classes/com/accenture/flowershop/fe/dto/CartDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/classes/com/accenture/flowershop/fe/dto/ClientInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/classes/com/accenture/flowershop/fe/dto/DiscountRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/classes/com/accenture/flowershop/fe/dto/ErrorDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/classes/com/accenture/flowershop/fe/dto/ItemInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/classes/com/accenture/flowershop/fe/dto/RegistrationReply.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/classes/com/accenture/flowershop/fe/dto/SearchDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/classes/configuration.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/META-INF/context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/classes/FlowershopSchema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/classes/com/accenture/flowershop/be/business/AdminService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/classes/com/accenture/flowershop/be/business/AdminServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/classes/com/accenture/flowershop/be/business/CartService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/classes/com/accenture/flowershop/be/business/CartServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/classes/com/accenture/flowershop/be/business/ClientMarshallingService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/classes/com/accenture/flowershop/be/business/ClientMarshallingServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/classes/com/accenture/flowershop/be/business/ClientOrderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/classes/com/accenture/flowershop/be/business/ClientOrderServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/classes/com/accenture/flowershop/be/business/ClientService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/classes/com/accenture/flowershop/be/business/ClientServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/classes/com/accenture/flowershop/be/business/FlowerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/classes/com/accenture/flowershop/be/business/FlowerServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/classes/com/accenture/flowershop/be/business/FlowerStockWebService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/classes/com/accenture/flowershop/be/business/FlowerStockWebServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/classes/com/accenture/flowershop/be/business/JmsAdvice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/classes/com/accenture/flowershop/be/business/MarshallerAdvice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/classes/com/accenture/flowershop/be/business/OrderItemService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/classes/com/accenture/flowershop/be/business/OrderItemServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/classes/com/accenture/flowershop/be/config/AppInitializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/classes/com/accenture/flowershop/be/config/BootConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/classes/com/accenture/flowershop/be/config/ContextStartedListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/classes/com/accenture/flowershop/be/config/JmsConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/classes/com/accenture/flowershop/be/config/JpaConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/classes/com/accenture/flowershop/be/config/SecurityConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/classes/com/accenture/flowershop/be/config/UrlAuthenticationSuccessHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/classes/com/accenture/flowershop/be/config/UserDetailsServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/classes/com/accenture/flowershop/be/config/WebAppConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/classes/com/accenture/flowershop/be/controller/DashboardController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/classes/com/accenture/flowershop/be/controller/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/classes/com/accenture/flowershop/be/controller/MainController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/classes/com/accenture/flowershop/be/controller/RegistrationController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/classes/com/accenture/flowershop/be/entity/PersistentEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/classes/com/accenture/flowershop/be/entity/flower/Flower.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/classes/com/accenture/flowershop/be/entity/order/ClientOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/classes/com/accenture/flowershop/be/entity/order/OrderItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/classes/com/accenture/flowershop/be/entity/order/OrderStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/classes/com/accenture/flowershop/be/entity/user/Admin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/classes/com/accenture/flowershop/be/entity/user/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/classes/com/accenture/flowershop/be/entity/user/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/classes/com/accenture/flowershop/be/repositories/flower/FlowerRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/classes/com/accenture/flowershop/be/repositories/order/ClientOrderRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/classes/com/accenture/flowershop/be/repositories/order/OrderItemRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/classes/com/accenture/flowershop/be/repositories/user/AdminRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/classes/com/accenture/flowershop/be/repositories/user/ClientRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/classes/com/accenture/flowershop/be/repositories/user/UserRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/classes/com/accenture/flowershop/fe/dto/CartDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/classes/com/accenture/flowershop/fe/dto/ClientInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/classes/com/accenture/flowershop/fe/dto/DiscountRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/classes/com/accenture/flowershop/fe/dto/ErrorDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/classes/com/accenture/flowershop/fe/dto/ItemInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/classes/com/accenture/flowershop/fe/dto/RegistrationReply.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/classes/com/accenture/flowershop/fe/dto/SearchDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/classes/configuration.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/FastInfoset-1.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/activation-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/ant-1.10.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/ant-launcher-1.10.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/antlr-2.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/asm-7.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/aspectjrt-1.9.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/aspectjweaver-1.9.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/byte-buddy-1.9.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/classmate-1.3.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/codemodel-2.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/commons-dbcp2-2.5.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/commons-pool2-2.6.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/cxf-core-3.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/cxf-rt-bindings-soap-3.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/cxf-rt-bindings-xml-3.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/cxf-rt-databinding-jaxb-3.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/cxf-rt-frontend-jaxws-3.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/cxf-rt-frontend-simple-3.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/cxf-rt-transports-http-3.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/cxf-rt-transports-http-jetty-3.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/cxf-rt-ws-addr-3.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/cxf-rt-ws-policy-3.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/cxf-rt-wsdl-3.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/dom4j-2.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/dtd-parser-1.4.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/geronimo-jta_1.1_spec-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/geronimo-ws-metadata_2.0_spec-1.1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/h2-1.4.197.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/hibernate-commons-annotations-5.1.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/hibernate-core-5.4.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/hibernate-entitymanager-5.4.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/istack-commons-runtime-3.0.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/istack-commons-tools-3.0.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/jackson-annotations-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/jackson-core-2.9.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/jackson-databind-2.9.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/jakarta.activation-api-1.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/jakarta.xml.bind-api-2.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/jandex-2.0.5.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/javassist-3.24.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/javax.activation-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/javax.activation-api-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/javax.annotation-api-1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/javax.persistence-api-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/javax.xml.soap-api-1.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/jaxb-api-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/jaxb-runtime-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/jaxb-xjc-2.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/jaxws-api-2.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/jboss-rmi-api_1.0_spec-1.0.6.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/jetty-continuation-9.4.12.v20180830.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/jetty-http-9.4.12.v20180830.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/jetty-io-9.4.12.v20180830.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/jetty-security-9.4.12.v20180830.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/jetty-server-9.4.12.v20180830.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/jetty-util-9.4.12.v20180830.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/junit-4.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/mimepull-1.9.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/neethi-3.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/relaxng-datatype-2.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/rngom-2.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/saaj-impl-1.4.0-b03.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/slf4j-api-1.8.0-beta2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/spring-aop-5.1.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/spring-aspects-5.1.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/spring-beans-5.1.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/spring-context-5.1.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/spring-core-5.1.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/spring-data-commons-2.1.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/spring-data-jpa-2.1.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/spring-expression-5.1.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/spring-jcl-5.1.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/spring-jdbc-5.1.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/spring-jms-5.1.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/spring-messaging-5.1.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/spring-orm-5.1.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/spring-oxm-5.1.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/spring-security-acl-5.1.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/spring-security-config-5.1.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/spring-security-core-5.1.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/spring-security-taglibs-5.1.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/spring-security-web-5.1.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/spring-tx-5.1.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/spring-web-5.1.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/spring-webmvc-5.1.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/stax-api-1.0-2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/stax-ex-1.7.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/stax2-api-3.1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/txw2-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/woodstox-core-5.0.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/wsdl4j-1.6.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/xml-resolver-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/xmlschema-core-2.2.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/lib/xsom-2.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/sun-jaxws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/pages/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/pages/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/pages/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/pages/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/pages/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/pages/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/pages/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/pages/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/pages/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/pages/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/pages/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/pages/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/pages/css/dashboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/pages/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/pages/css/util.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/pages/dashboard.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/pages/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/pages/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/pages/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/pages/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/pages/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/pages/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/pages/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/pages/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/pages/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/pages/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/flowershop/pages/registration.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowershop/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flowershop/flowershop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flowershop/flowershop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flowershop/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flowershop/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/business/CartService.java" beforeDir="false" afterPath="$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/business/CartService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/business/CartServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/business/CartServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/business/ClientOrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/business/ClientOrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/business/ClientOrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/business/ClientOrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/business/ClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/business/ClientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/business/ClientServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/business/ClientServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/business/FlowerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/business/FlowerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/business/FlowerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/business/FlowerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/business/OrderItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/business/OrderItemServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/config/AppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/config/AppInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/config/BootConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/config/BootConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/config/WebAppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/config/WebAppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/controller/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/controller/RegistrationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/entity/PersistentEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/entity/PersistentEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/entity/flower/Flower.java" beforeDir="false" afterPath="$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/entity/flower/Flower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/entity/order/ClientOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/entity/order/ClientOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/entity/order/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/entity/order/OrderItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/entity/user/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/entity/user/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/entity/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/entity/user/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/fe/dto/CartDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/fe/dto/CartDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flowershop/src/main/resources/FlowershopSchema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/flowershop/src/main/resources/FlowershopSchema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flowershop/src/main/webapp/pages/registration.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/flowershop/src/main/webapp/pages/registration.jsp" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/flowershop/target/" />
+    <ignored path="$PROJECT_DIR$/WsClient/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="flowershop" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="flowershop" type="feb32156:DbDataSourceImpl" />
+        <item name="FLOWERSHOP: database" type="2aa06773:H2ImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="flowershop" type="feb32156:DbDataSourceImpl" />
+        <item name="FLOWERSHOP: database" type="2aa06773:H2ImplModel$Database" />
+        <item name="PUBLIC: schema" type="7f85d983:H2ImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/business/FlowerStockWebServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="134">
+              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/config/SecurityConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/config/UrlAuthenticationSuccessHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/config/UserDetailsServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/config/ContextStartedListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/config/BootConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/config/WebAppConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WsClient/src/main/java/com/accenture/flowershop/startup/Startup.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/flowershop/src/main/resources/FlowershopSchema.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="48" column="3" selection-start-line="48" selection-start-column="3" selection-end-line="48" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/business/FlowerStockWebService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/business/ClientMarshallingServiceImpl.java" />
+        <option value="$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/business/ClientMarshallingService.java" />
+        <option value="$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/business/FlowerStockWebService.java" />
+        <option value="$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/business/MarshallerAdvice.java" />
+        <option value="$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/fe/dto/DiscountRequest.java" />
+        <option value="$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/fe/dto/RegistrationReply.java" />
+        <option value="$PROJECT_DIR$/WsClient/src/main/java/com/accenture/flowershop/startup/Startup.java" />
+        <option value="$PROJECT_DIR$/flowershop/pom.xml" />
+        <option value="$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/business/JmsAdvice.java" />
+        <option value="$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/business/FlowerStockWebServiceImpl.java" />
+        <option value="$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/config/JmsConfig.java" />
+        <option value="$PROJECT_DIR$/WsClient/WsClient.iml" />
+        <option value="$PROJECT_DIR$/flowershop/src/main/resources/FlowershopSchema.sql" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="WsClient" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="WsClient" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2180" />
+    <option name="y" value="-228" />
+    <option name="width" value="980" />
+    <option name="height" value="517" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ee_savinova" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ee_savinova" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ee_savinova" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ee_savinova" type="462c0819:PsiDirectoryNode" />
+              <item name="flowershop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ee_savinova" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ee_savinova" type="462c0819:PsiDirectoryNode" />
+              <item name="flowershop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ee_savinova" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ee_savinova" type="462c0819:PsiDirectoryNode" />
+              <item name="flowershop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ee_savinova" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ee_savinova" type="462c0819:PsiDirectoryNode" />
+              <item name="flowershop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ee_savinova" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ee_savinova" type="462c0819:PsiDirectoryNode" />
+              <item name="flowershop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="flowershop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ee_savinova" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ee_savinova" type="462c0819:PsiDirectoryNode" />
+              <item name="flowershop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="flowershop" type="462c0819:PsiDirectoryNode" />
+              <item name="be" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ee_savinova" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ee_savinova" type="462c0819:PsiDirectoryNode" />
+              <item name="flowershop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="flowershop" type="462c0819:PsiDirectoryNode" />
+              <item name="be" type="462c0819:PsiDirectoryNode" />
+              <item name="business" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ee_savinova" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ee_savinova" type="462c0819:PsiDirectoryNode" />
+              <item name="flowershop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="flowershop" type="462c0819:PsiDirectoryNode" />
+              <item name="be" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ee_savinova" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ee_savinova" type="462c0819:PsiDirectoryNode" />
+              <item name="flowershop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ee_savinova" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ee_savinova" type="462c0819:PsiDirectoryNode" />
+              <item name="WsClient" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ee_savinova" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ee_savinova" type="462c0819:PsiDirectoryNode" />
+              <item name="WsClient" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ee_savinova" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ee_savinova" type="462c0819:PsiDirectoryNode" />
+              <item name="WsClient" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ee_savinova" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ee_savinova" type="462c0819:PsiDirectoryNode" />
+              <item name="WsClient" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ee_savinova" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ee_savinova" type="462c0819:PsiDirectoryNode" />
+              <item name="WsClient" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="flowershop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ee_savinova" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ee_savinova" type="462c0819:PsiDirectoryNode" />
+              <item name="WsClient" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="flowershop" type="462c0819:PsiDirectoryNode" />
+              <item name="startup" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="h2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550054476192" />
+    <property name="database.console.LAST_STATE" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/WsClient/pom.xml" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.30574712" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Startup">
+    <configuration name="Startup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.accenture.flowershop.startup.Startup" />
+      <module name="WsClient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.accenture.flowershop.startup.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5.241" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.241" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="11" nameIsGenerated="true">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="flowershop:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/flowershop" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_5_241_ee_savinova" />
+        <option name="DEPLOY_TOMCAT_APPS" value="true" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="53560" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Maven.BeforeRunTask" enabled="true" file="C:\Users\valentina.savinova\Documents\Projects\ee_savinova\flowershop/pom.xml" goal="install" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" editBeforeRun="true" APPLICATION_SERVER_NAME="Tomcat 8.5.241" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="11">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="flowershop:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/flowershop" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_ee_savinova" />
+        <option name="DEPLOY_TOMCAT_APPS" value="true" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="53560" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Maven.BeforeRunTask" enabled="true" file="C:\Users\valentina.savinova\Documents\Projects\ee_savinova\flowershop/pom.xml" goal="install" />
+        <option name="BuildArtifacts" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="LOCAL" value="false" />
+      <deployment />
+      <server-settings>
+        <data>
+          <option name="targets">
+            <list>
+              <WatchedTargetModelImpl>
+                <option name="name" value="CONTEXT_XML" />
+                <name>CONTEXT_XML</name>
+              </WatchedTargetModelImpl>
+              <StagingTargetModelImpl>
+                <option name="name" value="STAGING" />
+                <name>STAGING</name>
+              </StagingTargetModelImpl>
+            </list>
+          </option>
+          <option name="transportHostId" />
+        </data>
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="TOMCAT_LOCALHOST_LOG_ID" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="56631" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.Tomcat 8.5.241" />
+      <item itemvalue="Application.Startup" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Startup" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpringBeansView">
+    <option name="beanDetailsProportion" value="0.3" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4948d343-1d79-4f41-bb62-fcc86cb87a6c" name="Default Changelist" comment="" />
+      <created>1550044855017</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1550044855017</updated>
+      <workItem from="1550044857012" duration="1946000" />
+      <workItem from="1550046965594" duration="7289000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="9235000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1358" y="-211" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Application Servers" />
+      <window_info anchor="bottom" id="Database Console" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.29690832" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32995737" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/flowershop/nb-configuration.xml" />
+    <entry file="file://$PROJECT_DIR$/flowershop/.idea/compiler.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flowershop/.idea/dataSources.local.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flowershop/.idea/dataSources.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flowershop/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flowershop/.idea/uiDesigner.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flowershop/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flowershop/src/main/webapp/META-INF/context.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flowershop/src/main/webapp/WEB-INF/sun-jaxws.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flowershop/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/business/ClientMarshallingServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/business/ClientMarshallingService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/fe/dto/DiscountRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/fe/dto/RegistrationReply.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WsClient/src/main/java/com/accenture/flowershop/be/business/package-info.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WsClient/src/main/java/com/accenture/flowershop/be/business/IncreaseFlowerStockSize.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WsClient/src/main/java/com/accenture/flowershop/be/business/IncreaseFlowerStockSizeResponse.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/business/MarshallerAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/business/JmsAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/config/JpaConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="48" column="24" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://6d458434-6a49-43fc-9d6b-c9dcc333715f/database/FLOWERSHOP/schema/PUBLIC/table/CLIENTORDER_ORDERITEM">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://6d458434-6a49-43fc-9d6b-c9dcc333715f/database/FLOWERSHOP/schema/PUBLIC/table/FLOWER">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/6d458434-6a49-43fc-9d6b-c9dcc333715f/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flowershop/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="156" column="21" selection-start-line="156" selection-start-column="21" selection-end-line="156" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.4.RELEASE/spring-beans-5.1.4.RELEASE-sources.jar!/org/springframework/beans/factory/annotation/Autowired.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="81" column="18" selection-start-line="81" selection-start-column="18" selection-end-line="81" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/config/JmsConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="41" column="41" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WsClient/src/main/java/com/accenture/flowershop/be/business/FlowerStockWebService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-88" />
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/ru.tts:WsClient:1">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>ru.tts:WsClient:1</OriginalElement>
+          <nodes>
+            <node x="" y="">ru.tts:WsClient:1</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="39.5" y="14.5" />
+          <SelectedNodes />
+          <Categories />
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WsClient/src/main/java/com/accenture/flowershop/be/business/ObjectFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="65" column="12" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WsClient/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WsClient/WsClient.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WsClient/src/main/java/com/accenture/flowershop/be/business/FlowerStockWebServiceImplService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/business/FlowerStockWebService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/business/FlowerStockWebServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/config/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/config/UrlAuthenticationSuccessHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/config/UserDetailsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/config/ContextStartedListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/config/BootConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flowershop/src/main/java/com/accenture/flowershop/be/config/WebAppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WsClient/src/main/java/com/accenture/flowershop/startup/Startup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flowershop/src/main/resources/FlowershopSchema.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="48" column="3" selection-start-line="48" selection-start-column="3" selection-end-line="48" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.30574712" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>flowershop:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.30574712" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.30574712" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.30574712" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11.0.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.30574712" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>flowershop</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.30574712" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Java EE 6-Java EE 6 (2)</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.30574712" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.30574712" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
+  </component>
+</project>

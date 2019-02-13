@@ -2,6 +2,7 @@ package com.accenture.flowershop.be.entity;
 
 import javax.persistence.*;
 import java.io.Serializable;
+import javax.xml.bind.annotation.XmlElement;
 
 @MappedSuperclass
 public class PersistentEntity implements Serializable {
@@ -14,6 +15,7 @@ public class PersistentEntity implements Serializable {
         return id;
     }
 
+    @XmlElement
     public void setId(Long id) {
         this.id = id;
     }

@@ -2,6 +2,7 @@ package com.accenture.flowershop.be.business;
 
 import com.accenture.flowershop.be.entity.flower.Flower;
 import com.accenture.flowershop.be.entity.order.OrderItem;
+import java.math.BigDecimal;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -17,7 +18,7 @@ public class CartServiceImpl implements CartService {
         OrderItem orderItem = new OrderItem();
         orderItem.setFlower(flower);
         orderItem.setCount(count);
-        orderItem.setPrice(flower.getPrice()*count);
+        orderItem.setPrice(flower.getPrice().multiply(BigDecimal.valueOf(count)));
         OrderItem toDelete = null;
         for (OrderItem item: cart) {
             if (item.getFlower().getId() == flowerId){
@@ -40,11 +41,11 @@ public class CartServiceImpl implements CartService {
     }
 
     @Override
-    public double getTotal(List<OrderItem> cart, int discount) {
-        double total = 0.0;
+    public BigDecimal getTotal(List<OrderItem> cart, int discount) {
+        BigDecimal total = BigDecimal.ZERO;
         for (OrderItem item:cart) {
-            total+=item.getPrice();
+            total=total.add(item.getPrice());
         }
-        return total - total/100*discount;
+        return total.subtract(total.divide(BigDecimal.valueOf(100l).multiply(BigDecimal.valueOf(discount))));
     }
 }

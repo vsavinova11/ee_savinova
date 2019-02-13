@@ -13,6 +13,7 @@ import com.accenture.flowershop.fe.dto.ItemInfo;
 import java.util.ArrayList;
 
 import com.accenture.flowershop.fe.dto.SearchDto;
+import java.math.BigDecimal;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -72,7 +73,7 @@ public class MainController {
         {
             cartInfo = new CartDto();
             cartInfo.setCart(new ArrayList<>());
-            cartInfo.setTotal(0.0);
+            cartInfo.setTotal(BigDecimal.ZERO);
             session.setAttribute("cartInfo", cartInfo);
         }
         try {

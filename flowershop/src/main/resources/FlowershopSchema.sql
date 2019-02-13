@@ -10,7 +10,7 @@ CREATE sequence HIBERNATE_SEQUENCE;
 	"FULLNAME" VARCHAR(128),
 	"ADDRESS" VARCHAR(128),
 	"PHONE" VARCHAR(20),
-	"BALANCE" DOUBLE,
+	"BALANCE" DECIMAL,
 	"DISCOUNT" INTEGER
    );
 --------------------------------------------------------
@@ -22,7 +22,7 @@ CREATE sequence HIBERNATE_SEQUENCE;
 	"CLOSINGDATE" VARCHAR,
 	"CREATIONDATE" VARCHAR NOT NULL,
 	"STATUS" VARCHAR(20),
-	"TOTAL" DOUBLE,
+	"TOTAL" DECIMAL,
     "CLIENT_ID" BIGINT
    );
    --------------------------------------------------------
@@ -33,7 +33,7 @@ CREATE sequence HIBERNATE_SEQUENCE;
    ("ID" BIGINT PRIMARY KEY,
     "NAME" VARCHAR(45) NOT NULL,
 	  "COUNT" INTEGER,
-	  "PRICE" DOUBLE
+	  "PRICE" DECIMAL
    );
 --------------------------------------------------------
 --  DDL for Table ORDERITEM
@@ -43,17 +43,10 @@ CREATE sequence HIBERNATE_SEQUENCE;
    ("ID" BIGINT PRIMARY KEY,
     "FLOWER_ID" BIGINT,
 	  "COUNT" INTEGER,
-	  "PRICE" DOUBLE
+	  "PRICE" DECIMAL,
+		"CLIENTORDER_ID" BIGINT
    );
-   
-   --------------------------------------------------------
---  DDL for Table CLIENTORDER_ORDERITEM
---------------------------------------------------------
 
-  CREATE TABLE "CLIENTORDER_ORDERITEM"
-   ("CLIENTORDER_ID" BIGINT,
-    "ORDERITEMS_ID" BIGINT UNIQUE
-   );
 --------------------------------------------------------
 --  Insert data
 --------------------------------------------------------

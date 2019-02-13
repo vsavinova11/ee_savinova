@@ -2,7 +2,6 @@ package com.accenture.flowershop.be.entity.order;
 
 import com.accenture.flowershop.be.entity.PersistentEntity;
 import com.accenture.flowershop.be.entity.user.Client;
-import com.sun.istack.NotNull;
 
 import javax.persistence.*;
 import java.math.BigDecimal;
@@ -20,13 +19,13 @@ public class ClientOrder extends PersistentEntity {
     private String closingDate;
     @Enumerated(EnumType.STRING)
     private OrderStatus status;
-    private double total;
+    private BigDecimal total;
 
-    public double getTotal() {
+    public BigDecimal getTotal() {
         return total;
     }
 
-    public void setTotal(double total) {
+    public void setTotal(BigDecimal total) {
         this.total = total;
     }
 

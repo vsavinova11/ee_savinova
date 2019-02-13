@@ -9,4 +9,5 @@ public interface ClientService {
     Client findByLogin(String login);
     List<Client> listClient();
     void removeClient(long id);
+    void setDiscount(Long clientId, int discount);
 }

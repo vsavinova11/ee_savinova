@@ -1,12 +1,13 @@
 package com.accenture.flowershop.fe.dto;
 
 import com.accenture.flowershop.be.entity.order.OrderItem;
+import java.math.BigDecimal;
 
 import java.util.List;
 
 public class CartDto {
     private List<OrderItem> cart;
-    private double total;
+    private BigDecimal total;
 
     public List<OrderItem> getCart() {
         return cart;
@@ -16,11 +17,11 @@ public class CartDto {
         this.cart = cart;
     }
 
-    public double getTotal() {
+    public BigDecimal getTotal() {
         return total;
     }
 
-    public void setTotal(double total) {
+    public void setTotal(BigDecimal total) {
         this.total = total;
     }
 }
